@@ -1,6 +1,6 @@
 import tkinter as tk
+from backend import *
 
-def ui_start():
-    root = tk.Tk()
-    root.title("ExpenseTracker")
-    root.mainloop()
+root = tk.Tk()
+root.geometry("800x800")
+root.mainloop()
